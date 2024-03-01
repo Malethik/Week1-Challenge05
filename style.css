@@ -11,14 +11,17 @@ header {
 h1 {
   justify-content: center;
 }
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
 nav {
   display: none;
 }
-
-@media (width > 550) {
+@media (width > 550px) {
   nav {
-    ul {
-      display: inherit;
-    }
+    display: initial;
   }
 }
