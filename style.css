@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+header {
+  display: flex;
+}
+h1 {
+  justify-content: center;
+}
+nav {
+  display: none;
+}
+
+@media (width > 550) {
+  nav {
+    ul {
+      display: inherit;
+    }
+  }
+}
