@@ -17,5 +17,8 @@
     "Programming"
   ],
   "author": "Daniele Quintiliani",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "husky": "^9.0.11"
+  }
 }
