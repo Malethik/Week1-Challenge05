@@ -111,6 +111,57 @@ nav {
   width: 320px;
   height: 267px;
 }
+.selected-work {
+  display: flex;
+  flex-direction: column;
+  max-width: 375px;
+  max-height: 1665px;
+  text-align: center;
+  padding: 60px, 30px, 60px, 30px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  gap: 30px;
+  p:first-child {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+  }
+  .project-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    left: 4rem;
+    bottom: 6.5rem;
+    padding: 0px, 0px, 30px, 0px;
+  }
+  .project-description {
+    left: 4rem;
+    bottom: 5rem;
+  }
+  .project-category {
+    left: 4rem;
+    bottom: 3rem;
+  }
+  .project-card {
+    background-color: #ffffff;
+    width: 375px;
+    height: 446px;
+    border-radius: 20px;
+    gap: 30px;
+    text-align: left;
+    position: relative;
+    p {
+      position: absolute;
+    }
+
+    img {
+      width: 375px;
+      height: 278px;
+    }
+  }
+}
+
 @media (width > 750px) {
   header {
     display: flex;
