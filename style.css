@@ -82,7 +82,7 @@ nav {
     height: 320px;
   }
 }
-
+/*  */
 .features {
   width: 375px;
   height: 1082px;
@@ -135,7 +135,7 @@ nav {
     height: 267px;
   }
 }
-
+/*  */
 .selected-work {
   display: flex;
   flex-direction: column;
@@ -201,7 +201,7 @@ nav {
     }
   }
 }
-
+/*  */
 .real-stories-main {
   display: flex;
   flex-direction: column;
@@ -267,8 +267,8 @@ nav {
     }
   }
 }
-
-.perfect-plan {
+/*  */
+.subscription {
   width: 375px;
   height: 1678px;
   padding: 60px, 30px, 60px, 30px;
@@ -276,38 +276,38 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  align-content: center;
 }
-.perfect-plan-title {
-  padding-top: 3rem;
+
+.subscription-container {
+  width: 315px;
+  height: 450px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  gap: 30px;
+  color: #2d2d2d;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.subscription-title {
   text-align: center;
   font-family: 'Poppins';
   font-weight: 600;
-  line-height: 49.4px;
-  letter-spacing: -2%;
-  align-items: center;
   font-size: 38px;
+  line-height: 49.4px;
+  text-align: center;
 }
 
-.first-content {
-  text-align: center;
+.subscription-content {
   font-family: 'Mulish';
   font-weight: 400;
   size: 16px;
   line-height: 24px;
 }
-.contain-plane {
-  background-color: #ffffff;
-  width: 315px;
-  height: 450px;
-  border-radius: 20px;
-  padding: 40px, 30px, 40px, 30px;
-  gap: 30px;
-  text-align: center;
-  color: #2d2d2d;
-}
-.free {
-  text-align: left;
+
+.subscription-type {
   font-family: 'Mulish';
   font-weight: 400;
   font-size: 21px;
@@ -315,49 +315,43 @@ nav {
 }
 
 .best-for {
-  text-align: left;
   font-family: 'Mulish';
   font-weight: 400;
   font-size: 21px;
   line-height: 31.5px;
 }
 
-.lista {
-  text-align: left;
-  padding-top: 2rem;
+.list {
   font-family: 'Mulish';
   font-weight: 700;
   font-size: 16px;
   line-height: 20.8px;
+  align-self: center;
 }
 
-.bigNumber {
-  text-align: left;
+.big-number {
   font-family: 'Poppins';
   font-weight: 700;
   font-size: 50px;
   line-height: 65px;
-  letter-spacing: -2%;
 }
 
 .get-started {
+  display: flex;
   font-family: 'Poppins';
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
+  background-color: #e5f4f2;
   color: #009379;
-  width: Fill (255px);
-  height: Fixed (60px);
+  width: 255px;
+  height: 60px;
   border-radius: 20px;
-  padding: 16px, 50px, 16px, 50px;
-  gap: 8px;
-  a {
-    width: 255px;
-    height: 60px;
-    border-radius: 20px;
-    padding: 16px, 50px, 16px, 50px;
-  }
+  align-items: center;
+  justify-content: center;
+  align-self: center;
 }
+
 .price {
   display: flex;
   align-items: baseline;
@@ -365,14 +359,49 @@ nav {
 .check {
   background-color: #009379;
 }
+.enterprise {
+  background-color: #009379;
+}
+
+.number-enterprise {
+  color: white;
+}
+
+.list-enterprise {
+  color: #ffffff;
+}
+
+.best-for-enterprise {
+  color: #ffffff;
+}
+
+.check-enterprise {
+  color: #ffffff;
+}
+
+.get-started-enterprise {
+  background-color: #ffffff;
+  color: #009379;
+}
+
+.title-enterprise {
+  color: #ffffff;
+}
+
+/*  */
 .container-metric {
   width: 375px;
   height: 563px;
   padding: 60px, 30px, 60px, 30px;
   gap: 40px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-.metrics {
+.metrics-title {
   font-family: 'Poppins';
   font-weight: 700;
   font-size: 38px;
@@ -380,52 +409,67 @@ nav {
   letter-spacing: -2%;
 }
 
-.our-metrics {
+.metric-description {
   font-family: 'Mulish';
   font-weight: 400;
   font-size: 16px;
   line-height: 20.8px;
 }
-.number-separate {
+.statistic-block {
   display: flex;
   flex-wrap: wrap;
   .first {
+    width: 147.5px;
+    height: 91px;
     border-left: 4px solid #f2bfaf;
     display: flex;
     flex-direction: column;
   }
   .second {
+    width: 147.5px;
+    height: 91px;
     border-left: 4px solid #f2bfaf;
     display: flex;
     flex-direction: column;
   }
   .third {
+    width: 147.5px;
+    height: 91px;
     border-left: 4px solid #f2bfaf;
     display: flex;
     flex-direction: column;
   }
   .four {
+    width: 147.5px;
+    height: 91px;
     border-left: 4px solid #f2bfaf;
     display: flex;
     flex-direction: column;
   }
 }
-.number-1 {
+.statistic {
   font-family: 'Poppins';
   font-weight: 700;
   font-size: 38px;
   line-height: 49.4px;
-  letter-spacing: -2%;
 }
 
-.little-par {
+.statistic-description {
   font-family: 'Mulish';
   font-weight: 400;
   font-size: 16px;
   line-height: 20.8px;
 }
-
-.get-touch {
+/*  */
+.contact-us {
+  width: 315px;
+  height: 761px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-us-title {
   font-family: 'Poppins';
   font-weight: 700;
   font-size: 38px;
@@ -433,7 +477,7 @@ nav {
   letter-spacing: -2%;
 }
 
-.got-questions {
+.contact-us-description {
   font-family: 'Mulish';
   font-weight: 400;
   font-size: 16px;
@@ -452,53 +496,7 @@ nav {
   flex-direction: column;
 }
 
-.enterprise {
-  border-radius: 20px;
-  background-color: #009379;
-  text-align: left;
-  font-family: 'Mulish';
-  font-weight: 400;
-  font-size: 21px;
-  line-height: 31.5px;
-}
-
-.number-enterprise {
-  color: white;
-  text-align: left;
-  font-family: 'Poppins';
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 65px;
-  letter-spacing: -2%;
-}
-
-.list-enterprise {
-  color: white;
-}
-
-.best-for-enterprise {
-  color: white;
-}
-
-.check-enterprise {
-  color: white;
-}
-
-.get-started-enterprise {
-  background-color: white;
-  border-radius: 20px;
-}
-
-.title-enterprise {
-  color: white;
-}
-
-.number-price1 {
-  display: flex;
-}
-.number-price2 {
-  display: flex;
-}
+/*  */
 
 .footer {
   display: flex;
