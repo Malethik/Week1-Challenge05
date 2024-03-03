@@ -397,8 +397,7 @@ nav {
   font-size: 16px;
   line-height: 20.8px;
 }
-.statistic-container {
-}
+
 .statistic-block {
   display: flex;
   flex-wrap: wrap;
@@ -674,6 +673,7 @@ nav {
       height: 60px;
       ul {
         display: flex;
+        gap: 16px;
         li {
           justify-content: flex-end;
           font-family: 'Poppins', sans-serif;
@@ -686,6 +686,7 @@ nav {
           width: 221px;
           height: 60px;
         }
+
         li.how-to {
           display: flex;
           justify-content: center;
@@ -736,6 +737,40 @@ nav {
     }
     .hero-image {
       width: 450px;
+      height: 450px;
+    }
+  }
+  .features {
+    flex-direction: row-reverse;
+    width: 1280px;
+    height: 690px;
+    .features-second-layer {
+      .feature-title {
+        text-align: start;
+      }
+      .container-feature-text {
+        display: flex;
+        flex-direction: column;
+        .feature-description {
+          width: 570px;
+          height: 64px;
+          text-align: justify;
+          padding-top: 16px;
+          padding-bottom: 16px;
+        }
+      }
+      .container-features-icons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        .features-icons {
+          flex-grow: 4;
+        }
+      }
+    }
+    .image-features {
+      width: 540px;
       height: 450px;
     }
   }
