@@ -481,6 +481,7 @@ nav {
 }
 
 .tlf {
+  font-family: 'Mulish';
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -490,6 +491,7 @@ nav {
 }
 
 .hotmail {
+  font-family: 'Mulish';
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -533,8 +535,32 @@ nav {
     border: 1px solid #d8d8d8;
   }
   .contact-box1 {
+    padding: 16px;
+    border: 1px solid #d8d8d8;
+    border-radius: 20px;
+    margin-left: 1rem;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    gap: 8px;
+    flex-direction: row;
+    margin-bottom: 1rem;
   }
   .contact-box2 {
+    padding: 16px;
+    border: 1px solid #d8d8d8;
+    border-radius: 20px;
+    margin-left: 1rem;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    gap: 8px;
+    flex-direction: row;
+    margin-bottom: 1rem;
   }
   .submit-button {
     width: 159px;
@@ -559,6 +585,7 @@ nav {
     width: 315px;
     height: 360px;
     background-color: #e5f4f2;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
